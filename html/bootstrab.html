@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>learn front end | html</title>
+  <link rel="shortcut icon" href="source/images/favicon-Logo.png" type="image/x-icon">
+  <!-- google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- link css file -->
+<link rel="stylesheet" href="../css/vendor/all.min.css">
+  <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-12 p-0">
+        <header>
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html"><i class="header-icon fa-brands  fa-leanpub"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbar-content">
+      
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Programming Path
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="html.html">Html</a></li>
+                    <li><a class="dropdown-item" href="css.html">Css</a></li>
+                    <li><a class="dropdown-item" href="js.html">javascript</a></li>
+                    <li><a class="dropdown-item" href="bootstrab.html">Bootstrap</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="login d-flex justify-content-around align-items-center gap-2">
+                <span id="dark-mode-button"><i class="fa-solid icon fa-circle-half-stroke"></i></span>
+                <div class="log d-flex mx-3 align-items-center">
+                  <i class="fa-solid  mx-3 icon fa-user"></i>
+                  <p class="mb-0  u-name" id="outName"></p>
+                </div>
+              </div>
+            </div>
+      
+      
+          </nav>
+           
+        </header>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-2">
+        <div class=" sidebar " id="sidenav">
+          <div id="leftmenuinner">
+            <div id="leftmenuinnerinner"> 
+      <h5 class="left"><span class="left_h2">Bootstrap 3 Tutorial</span></h5>
+        <a target="screen" onclick="show('#1')" id="#1" href="#1"> intro to bootstrab and link it<a>
+        <a target="screen" onclick="show('#2')" id="#2" href="#2">grid system in bootstrap</a>
+        <a target="screen" onclick="show('#3')" id="#3" href="#3">Rows and columns </a>
+        <a target="screen" onclick="show('#5')" id="#4" href="#5">justify content and align items in grid system</a>
+          <a target="_top" href="bootstrap_wells.asp">BS Wells</a>
+          <a target="_top" href="bootstrap_alerts.asp">BS Alerts</a>
+          <a target="_top" href="bootstrap_buttons.asp">BS Buttons</a>
+          <a target="_top" href="bootstrap_button_groups.asp">BS Button Groups</a>
+          <a target="_top" href="bootstrap_glyphicons.asp">BS Glyphicons</a>
+          <a target="_top" href="bootstrap_badges_labels.asp">BS Badges/Labels</a>
+          <a target="_top" href="bootstrap_progressbars.asp">BS Progress Bars</a>
+          <a target="_top" href="bootstrap_pagination.asp">BS Pagination</a>
+          <a target="_top" href="bootstrap_pager.asp">BS Pager</a>
+          <a target="_top" href="bootstrap_list_groups.asp">BS List Groups</a>
+          <a target="_top" href="bootstrap_panels.asp">BS Panels</a>
+          <a target="_top" href="bootstrap_dropdowns.asp">BS Dropdowns</a>
+          <a target="_top" href="bootstrap_collapse.asp">BS Collapse</a>
+          <a target="_top" href="bootstrap_tabs_pills.asp">BS Tabs/Pills</a>
+          <a target="_top" href="bootstrap_navbar.asp">BS Navbar</a>
+          <a target="_top" href="bootstrap_forms.asp">BS Forms</a>
+          <a target="_top" href="bootstrap_forms_inputs.asp">BS Inputs</a>
+          <a target="_top" href="bootstrap_forms_inputs2.asp">BS Inputs 2</a>
+          <a target="_top" href="bootstrap_forms_sizing.asp">BS Input Sizing</a>
+          <a target="_top" href="bootstrap_media_objects.asp">BS Media Objects</a>
+          <a target="_top" href="bootstrap_carousel.asp">BS Carousel</a>
+          <a target="_top" href="bootstrap_modal.asp">BS Modal</a>
+          <a target="_top" href="bootstrap_tooltip.asp">BS Tooltip</a>
+          <a target="_top" href="bootstrap_popover.asp">BS Popover</a>
+          <a target="_top" href="bootstrap_scrollspy.asp">BS Scrollspy</a>
+          <a target="_top" href="bootstrap_affix.asp">BS Affix</a>
+          <a target="_top" href="bootstrap_filters.asp">BS Filters</a>
+          <br>
+          
+          <h5 class="left"><span class="left_h2">Bootstrap</span> Grids</h5>
+          <a target="_top" href="bootstrap_grid_system.asp">BS Grid System</a>
+          <a target="_top" href="bootstrap_grid_stacked_to_horizontal.asp">BS Stacked/Horizontal</a>
+          <a target="_top" href="bootstrap_grid_small.asp">BS Grid Small</a>
+          <a target="_top" href="bootstrap_grid_medium.asp">BS Grid Medium</a>
+          <a target="_top" href="bootstrap_grid_large.asp">BS Grid Large</a>
+          <a target="_top" href="bootstrap_grid_examples.asp">BS Grid Examples</a>
+          <br>
+          <h5 class="left"><span class="left_h2">Bootstrap</span> Themes</h5>
+          <a target="_top" href="bootstrap_templates.asp">BS Templates</a>
+          <a target="_top" href="bootstrap_theme_me.asp">BS Theme "Simply Me"</a>
+          <a target="_top" href="bootstrap_theme_company.asp">BS Theme "Company"</a>
+          <a target="_top" href="bootstrap_theme_band.asp">BS Theme "Band"</a>
+          <br>
+          <h5 class="left"><span class="left_h2">Bootstrap</span> Examples</h5>
+          <a target="_top" href="bootstrap_examples.asp">BS Examples</a>
+          <a target="_top" href="bootstrap_editor.asp">BS Editor</a>
+          <a target="_top" href="bootstrap_quiz.asp">BS Quiz</a>
+          <a target="_top" href="bootstrap_exercises.asp">BS Exercises</a>
+          <a target="_top" href="bootstrap_exam.asp">BS Certificate</a>
+          <br>
+          
+          <h5 class="left"><span class="left_h2">Bootstrap</span> CSS Ref</h5>
+          <a target="_top" href="bootstrap_ref_all_classes.asp">CSS All Classes</a>
+          <a target="_top" href="bootstrap_ref_css_text.asp">CSS Typography</a>
+          <a target="_top" href="bootstrap_ref_css_buttons.asp">CSS Buttons</a>
+          <a target="_top" href="bootstrap_ref_css_forms.asp">CSS Forms</a>
+          <a target="_top" href="bootstrap_ref_css_helpers.asp">CSS Helpers</a>
+          <a target="_top" href="bootstrap_ref_css_images.asp">CSS Images</a>
+          <a target="_top" href="bootstrap_ref_css_tables.asp">CSS Tables</a>
+          <a target="_top" href="bootstrap_ref_comp_dropdowns.asp">CSS Dropdowns</a>
+          <a target="_top" href="bootstrap_ref_comp_navs.asp">CSS Navs</a>
+          <a target="_top" href="bootstrap_ref_comp_glyphs.asp">Glyphicons</a>
+          <br>
+          <h5 class="left"><span class="left_h2">Bootstrap</span> JS Ref</h5>
+          <a target="_top" href="bootstrap_ref_js_affix.asp">JS Affix</a>
+          <a target="_top" href="bootstrap_ref_js_alert.asp">JS Alert</a>
+          <a target="_top" href="bootstrap_ref_js_button.asp">JS Button</a>
+          <a target="_top" href="bootstrap_ref_js_carousel.asp">JS Carousel</a>
+          <a target="_top" href="bootstrap_ref_js_collapse.asp">JS Collapse</a>
+          <a target="_top" href="bootstrap_ref_js_dropdown.asp">JS Dropdown</a>
+          <a target="_top" href="bootstrap_ref_js_modal.asp">JS Modal</a>
+          <a target="_top" href="bootstrap_ref_js_popover.asp">JS Popover</a>
+          <a target="_top" href="bootstrap_ref_js_scrollspy.asp">JS Scrollspy</a>
+          <a target="_top" href="bootstrap_ref_js_tab.asp">JS Tab</a>
+          <a target="_top" href="bootstrap_ref_js_tooltip.asp">JS Tooltip</a>
+          <br class="w3-hide-large"> <br>
+    </div>
+          </div>
+        </div></div>
+      <div class="col-10">
+        <iframe src="" id="show" name="sceen" height="100%" width="100%" title="Iframe Example">
+        </iframe>
+        <iframe width="560" id="1" height="315" src="https://www.youtube.com/embed/itMuex4BfS8?si=ssB-4QnC2ItmwTeh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="2" height="315" src="https://www.youtube.com/embed/4yWf4jwMA7Y?si=GfQYdnlCWGXy0wz9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="3" height="315" src="https://www.youtube.com/embed/ZC_IWh-5EoM?si=Phpq60SZHo_OgtDF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="4" height="315" src="https://www.youtube.com/embed/BWEjUOy-4gE?si=DWwDJGGTq-n6oAng" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+   
+  <script src="../js/vendor/all.min.js"></script>
+ <script src="../js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="../js/main-file.js"></script>
+</body>
+</html>

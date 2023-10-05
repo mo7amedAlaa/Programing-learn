@@ -1,0 +1,517 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Learn Fornt End</title>
+  <link rel="shortcut icon" href="source/images/favicon-Logo.png" type="image/x-icon">
+  <!-- google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;700&display=swap"
+    rel="stylesheet">
+  <!-- css link file -->
+  <link rel="stylesheet" href="css/vendor/all.min.css">
+  <link rel="stylesheet" href="css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="css/theme.css">
+  <link rel="stylesheet" href="css/main-style.css">
+</head>
+
+<body id="main-page"  >
+  <div class="overlay " id="over">
+    
+    <form   class="  text-center" name="form1" method="post"">
+      <label for="userName">
+        hello enter your name:
+      </label>
+      <br>
+      <input id="userName" type="text"  placeholder="Enter Your Name" autocomplete="on"  ><br>
+    
+      <br>
+      <input type="button" value="send my name" id="submit" > <br>
+      <label for="" id="error" class="invisible">You Need to Enter Your Name</label>
+    </form>
+  
+    <div class="snipper">
+      <div class="green line">
+      </div> 
+      <div class="blue line">
+      </div> 
+      <div class="grape line">
+      </div> 
+      <div class="red line horizontal grow">
+      </div> 
+      <div class="orange line horizontal grow">
+      </div> 
+      <div class="yellow line horizontal grow">
+      </div> 
+      <div class="dot">
+      </div> 
+    </div>
+  </div>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <a class="navbar-brand" href="index.html"><i class="header-icon fa-brands  fa-leanpub"></i></a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbar-content">
+
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <a class="nav-link" href="#top">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#about">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#rev">reviws</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#con">Contacts</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Programming Path
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="html/html.html">Html</a></li>
+              <li><a class="dropdown-item" href="html/css.html">Css</a></li>
+              <li><a class="dropdown-item" href="html/js.html">javascript</a></li>
+              <li><a class="dropdown-item" href="html/bootstrab.html">Bootstrap</a></li>
+            </ul>
+          </li>
+        </ul>
+        <div class="login d-flex justify-content-around align-items-center gap-2">
+          <span id="dark-mode-button"><i class="fa-solid icon fa-circle-half-stroke"></i></span>
+          <div class="log d-flex mx-3 align-items-center">
+            <i class="fa-solid  mx-3 icon fa-user"></i>
+            <p class="mb-0  u-name" id="outName"></p>
+          </div>
+        </div>
+      </div>
+
+
+    </nav>
+    <div class="line">
+      <div class="line-1"></div>
+      <div class="line-2"></div>
+    </div>
+    
+  </header>
+  <main>
+    <div class="hero-sec" id="top">
+      <div class="container">
+        <div class=" holder d-flex gap-5">
+          <div class="left-section   ">
+            <h1>The ideal site for you to learn front-end programming</h1>
+            <p>Master programming in front end fields through professional programming courses to obtain excellent
+              income and career opportunities around the world.</p>
+            <button type="button" class="main-btn"><a href="#pro" >Start learn</a></button>
+          </div>
+          <div class="right-section">
+            <div class="image-box"> <img src="source/images/19362653.jpg" alt=""></div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+    <div class="about-sec" id="about">
+      <div class="container">
+        <div class="holder d-flex gap-5">
+          <div class="right-section">
+            <div class="image-box">
+              <img src="source/images/group-people-working-out-business-plan-office.jpg" alt="">
+            </div>
+          </div>
+          <div class="left-section">
+            <h1>About us</h1>
+            <p>Welcome let me introduce you to us. We offer you a site to learn front-end programming with ease and with
+              techniques that guarantee you complete qualifications to become a front-end developer so that you can get
+              a job and build your own website with ease.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="Programming-path" id="pro">
+      <div class="container">
+        <h1>Programming path</h1>
+        <div id="list-holder">
+          <div class="box ">
+            <div class="lan-image html">
+              <a href="html/html.html" target="_blank"><img src="source/images/html-1.svg" alt=""></a>
+            </div>
+            <div class="info">
+              <p>HTML</p>
+            </div>
+          </div>
+          <div class="box ">
+            <div class="lan-image">
+              <a href="html/css.html" target="_blank"><img src="source/images/css-3.svg" alt=""></a>
+            </div>
+            <div class="info">
+              <p>css</p>
+            </div>
+          </div>
+          <div class="box ">
+            <div class="lan-image js">
+              <a href="html/js.html" target="_blank"><img src="source/images/javascript-1.svg" alt=""></a>
+            </div>
+            <div class="info">
+              <p>java script</p>
+            </div>
+          </div>
+          <div class="box ">
+            <div class="lan-image boot">
+              <a href="html/bootstrab.html" target="_blank"><img src="source/images/bootstrap-5-1.svg" alt=""></a>
+            </div>
+            <div class="info">
+              <p>bootstrap</p>
+            </div>
+          </div>
+          <a class="prev " onclick="plusSlides(-1)">&#10094;</a>
+          <a class="next" onclick="plusSlides(1)">&#10095;</a>
+        </div>
+        <div class="Programming-path text-center">
+          <div class="container">
+            <div id="carouselExampleCaptions" class="carousel slide d-md-none">
+              <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                  aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                  aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                  aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+                  aria-label="Slide 4"></button>
+              </div>
+              <div class="carousel-inner">
+                <div class="carousel-item  active">
+                  <div class="lan-image html">
+                    <a href="html/html.html" target="_blank"><img src="source/images/html-1.svg" alt=""></a>
+                  </div>
+                  <div class="carousel-caption   d-md-block">
+                    <h5>HTML</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="lan-image">
+                    <a href="html/css.html" target="_blank"><img src="source/images/css-3.svg" alt=""></a>
+                  </div>
+                  <div class="carousel-caption   d-md-block ">
+                    <h5>css </h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="lan-image">
+                    <a href="html/js.html" target="_blank"><img src="source/images/javascript-1.svg" alt=""></a>
+                  </div>
+                  <div class="carousel-caption   d-md-block">
+                    <h5>java script</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+                <div class="carousel-item">
+                  <div class="lan-image boot">
+                    <a href="html/bootstrab.html" target="_blank"><img src="source/images/bootstrap-5-1.svg" alt=""></a>
+                  </div>
+                  <div class="carousel-caption   d-md-block">
+                    <h5>bootstrap</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                  </div>
+                </div>
+              </div>
+              <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+              </button>
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="advan" id="rev">
+      <div class="container">
+        <h1>Why Learn Programming through this course?</h1>
+        <div class="card-wap row ">
+          <div class=" col-12 p-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="card">
+              <div class="card-header">
+                Lessons
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item ">Read concise lessons</li>
+                <li class="list-group-item">Save notes in lessons</li>
+                <li class="list-group-item">Export & print your notes</li>
+                <li class="list-group-item">Read a recap of topics learned</li>
+                <li class="list-group-item">Suggested popular highlights</li>
+                <li class="list-group-item">Read a recap of every lesson/li>
+              </ul>
+            </div>
+          </div>
+          <div class=" col-12 p-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="card">
+              <div class="card-header">
+                Practice
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Practice directly in the browser</li>
+                <li class="list-group-item">Solve interactive challenges
+                </li>
+                <li class="list-group-item">Test-driven environment
+                </li>
+                <li class="list-group-item">Solve real-world projects
+                </li>
+                <li class="list-group-item">Continue on your phone</li>
+                <li class="list-group-item">Printable syntax challenges</li>
+              </ul>
+            </div>
+          </div>
+          <div class=" col-12 p-4 col-md-4 col-lg-4 col-xl-4">
+            <div class="card">
+              <div class="card-header">
+                Flashcards
+              </div>
+              <ul class="list-group list-group-flush">
+                <li class="list-group-item">Keep your memory fresh
+                </li>
+                <li class="list-group-item">Learn on the go</li>
+                <li class="list-group-item">Benefit from spaced repetition</li>
+                <li class="list-group-item">Review per chapter
+                </li>
+                <li class="list-group-item">Maintain your progress streak
+                </li>
+                <li class="list-group-item">200+ flashcards</li>
+              </ul>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+    <div class="test " id="test">
+      <div class="container">
+        <h1 class="mb-5">test you self</h1>
+        <div class="card mx-auto mb-3" style="max-width: 540px;">
+          <div class="row g-0">
+            <div class="col-md-4">
+              <img src="source/images/4707122.jpg" class="img-fluid rounded-start" alt="...">
+            </div>
+            <div class="col-md-8">
+              <div class="card-body">
+                <h5 class="card-title">final Quiz</h5>
+                <p class="card-text">Test your knowledge through quizzes, which are optional questions that will help you achieve mastery.</p>
+                <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                <a href="html/Quiz .html"
+          class="try-it btn-shine">Start Quiz→</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <section class="testimonial  ">
+      <div class="container">
+        <h1>testimonial</h1>
+        <div id="carouselExampleIndicators" class="carousel slide">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item m-5 active">
+              <div class="card"   >
+                <img src="source/images/photo-1438761681033-6461ffad8d80.jpeg" class="card-img-top  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Nada Alaa</h5>
+                  <p class="card-text">very good help me to learn programming 
+                    100/100 stars.</p>
+                  <a href="#" class="btn  w-100 h-100">nada profile</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item m-5">
+              <div class="card"  >
+                <img src="source/images/360_F_243123463_zTooub557xEWABDLk0jJklDyLSGl2jrr.jpg " class="card-img-top  " alt="... ">
+                <div class="card-body">
+                  <h5 class="card-title">Hazem Alaa</h5>
+                  <p class="card-text">very good help me to learn programming 
+                    100/100 stars.
+                  </p>
+                  <a href="#" class="btn  w-100 h-100">hazem profile</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item m-5">
+              <div class="card"  >
+                <img src="source/images/young-handsome-man-beard-wearing-260nw-1768126784.webp" class="card-img-top  " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Hamo Alaa</h5>
+                  <p class="card-text">very good help me to learn programming 
+                    100/100 stars.</p>
+                  <a href="#" class="btn  w-100 h-100">hamo profile</a>
+                </div>
+              </div>
+            </div>
+            <div class="carousel-item m-5">
+              <div class="card"  >
+                <img src="source/images/images.jpeg" class="card-img-top " alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Said Alaa</h5>
+                  <p class="card-text">very good help me to learn programming 
+                    100/100 stars.</p>
+                  <a href="#" class="btn  w-100 h-100">said profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon " aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+      </div>
+   </section>
+    <section id="final-cta" role="complementary" aria-labelledby="final-cta-subtitle">
+      <div class="container">
+        <h2 id="final-cta-subtitle" class="subtitle-big">The easiest way to learn <span>&nbsp;programming&nbsp;</span>
+          step by step</h2>
+        <p id="final-cta-p"><strong>Join more than 125,000 learners.</strong></p><a href="html/editor.html"
+          class="try-it btn-shine">Try code →</a>
+      </div>
+    </section>
+   
+  </main>
+  <footer class="text-center text-lg-start  "  >
+    <!-- Grid container -->
+    <div class="container p-4 pb-0">
+      <!-- Section: Links -->
+      <section class="">
+        <!--Grid row-->
+        <div class="row">
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">
+              learn front end
+            </h6>
+            <p>
+              thanks for visited our website
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-2 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold ">learned language</h6>
+            <p>
+              <a href="html/html.html">Html</a>
+            </p>
+            <p>
+
+              <a href="html/css.html">Css</a>
+            </p>
+            <p>
+              <a href="html/js.html">java script</a>
+            </p>
+            <p>
+              <a href="html/bootstrab.html">Bootstrap</a>
+            </p>
+          </div>
+          <!-- Grid column -->
+
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <hr class="w-100 clearfix d-md-none" />
+
+          <!-- Grid column -->
+          <div class="col-md-4 col-lg-3 col-xl-3 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold" id="con">Contact</h6>
+            <p><i class="fas fa-home mr-3"></i> New York, NY 10012, US</p>
+            <p><i class="fas fa-envelope mr-3"></i> mohamed3laa3467@gmail.com</p>
+            <p><i class="fas fa-phone mr-3"></i> + 01 234 567 88</p>
+            <p><i class="fas fa-print mr-3"></i> + 01 234 567 89</p>
+          </div>
+          <!-- Grid column -->
+
+          <!-- Grid column -->
+          <div class="col-md-3 col-lg-2 col-xl-2 mx-auto mt-3">
+            <h6 class="text-uppercase mb-4 font-weight-bold">Follow us</h6>
+
+            <!-- Facebook -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #3b5998" href="#!" role="button"><i
+                class="fab fa-facebook-f"></i></a>
+
+            <!-- Twitter -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #55acee" href="#!" role="button"><i
+                class="fab fa-twitter"></i></a>
+
+            <!-- Google -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #dd4b39" href="#!" role="button"><i
+                class="fab fa-google"></i></a>
+
+            <!-- Instagram -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #ac2bac" href="#!" role="button"><i
+                class="fab fa-instagram"></i></a>
+
+            <!-- Linkedin -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #0082ca" href="#!" role="button"><i
+                class="fab fa-linkedin-in"></i></a>
+            <!-- Github -->
+            <a class="btn btn-primary btn-floating m-1" style="background-color: #333333"
+              href="https://github.com/mo7amedAlaa" role="button"><i class="fab fa-github"></i></a>
+          </div>
+        </div>
+        <!--Grid row-->
+      </section>
+      <!-- Section: Links -->
+    </div>
+    <!-- Grid container -->
+
+    <!-- Copyright -->
+    <div class="text-center Copyright p-3">
+      © 2020 Copyright:
+      <a href="https://mo7amedalaa.github.io/My_portfolio-/">mo7amedalaa</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  <!-- Back to top button -->
+<button
+type="button"
+class=" btn  btn-floating btn-lg"
+id="btn-back-to-top"
+>
+<i class="fas fa-arrow-up"></i>
+</button>
+  <!-- Footer -->
+  <!-- End of .container -->
+  <!-- java script link file -->
+  <script src="js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="js/vendor/all.min.js"></script>
+  <script src="js/main-file.js"></script>
+</body>
+
+</html>

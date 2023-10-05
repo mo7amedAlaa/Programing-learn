@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>learn front end | Editor</title>
+    <link rel="shortcut icon" href="source/images/favicon-Logo.png" type="image/x-icon">
+    <!-- google font links -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+  <!-- link css file -->
+  <link rel="stylesheet" href="../css/vendor/all.min.css">
+    <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/theme.css">
+    <link rel="stylesheet" href="../css/editor.css">
+  </head>
+<body>
+  <div class="container-fluid con-ed">
+    <div class="row py-3">
+      <div class="col-4 d-flex flex-column gap-2">
+        <div class="lan-box">
+          <h1 class="name">Html</h1>
+          <textarea name=""  spellcheck="false" onkeyup="displayOutput()"  id="htmlCode"></textarea>
+        </div>
+        <div class="lan-box">
+          <h1 class="name">css</h1>
+          <textarea name=""  spellcheck="false" onkeyup="displayOutput()"  id="cssCode"></textarea>
+        </div>
+        <div class="lan-box">
+          <h1 class="name">js</h1>
+          <textarea name=""   spellcheck="false" onkeyup="displayOutput()" id="jsCode"></textarea>
+        </div>
+      </div>
+      <div class="col-8">
+        <iframe  id="output" srcdoc="" ></iframe>
+      </div>
+    </div>
+    </div>
+    
+     <!-- link js file -->
+ <script src="../js/vendor/all.min.js" ></script>
+ <script src="../js/vendor/bootstrap.bundle.min.js" ></script>
+  <script src="../js/main-file.js"></script>
+</body>
+</html>

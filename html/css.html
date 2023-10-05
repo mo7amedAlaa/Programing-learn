@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>learn front end | css</title>
+  <link rel="shortcut icon" href="source/images/favicon-Logo.png" type="image/x-icon">
+  <!-- google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- link css file -->
+<link rel="stylesheet" href="../css/vendor/all.min.css">
+  <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body>
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-12 p-0">
+        <header>
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html"><i class="header-icon fa-brands  fa-leanpub"></i></a>
+      
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbar-content">
+      
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Programming Path
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="html.html">Html</a></li>
+                    <li><a class="dropdown-item" href="css.html">Css</a></li>
+                    <li><a class="dropdown-item" href="js.html">javascript</a></li>
+                    <li><a class="dropdown-item" href="bootstrab.html">Bootstrap</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="login d-flex justify-content-around align-items-center gap-2">
+                <span id="dark-mode-button"><i class="fa-solid icon fa-circle-half-stroke"></i></span>
+                <div class="log d-flex mx-3 align-items-center">
+                  <i class="fa-solid  mx-3 icon fa-user"></i>
+                  <p class="mb-0  u-name" id="outName"></p>
+                </div>
+              </div>
+            </div>
+      
+      
+          </nav>
+           
+        </header>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-2">
+        <div class=" sidebar " id="sidenav">
+          <div id="leftmenuinner">
+            <div id="leftmenuinnerinner">
+       
+        <h5 class="left"><span class="left_h2">Css</span> Tutorial</h5>
+         
+        <a target="screen" onclick="show('#1')" id="#1" href="#1">Css Introduction</a>
+        <a target="screen" onclick="show('#2')" id="#2" href="#2">Your First Project And Syntax</a>
+        <a target="screen" onclick="show('#3')" id="#3" href="#3">Element Styling Code </a>
+        <a target="screen" onclick="show('#4')" id="#4" href="#4"> Name Conventions And Rules </a>
+          <a target="_top" href="css_comments.asp">CSS Comments</a>
+          <a target="_top" href="css_colors.asp">CSS Colors</a>
+          <div class="tut_overview">
+            <a target="_top" href="css_colors.asp">Colors</a>
+            <a target="_top" href="css_colors_rgb.asp">RGB</a>
+            <a target="_top" href="css_colors_hex.asp">HEX</a>
+            <a target="_top" href="css_colors_hsl.asp">HSL</a>
+          </div>
+          <a target="_top" href="css_background.asp">CSS Backgrounds</a>
+          <div class="tut_overview">
+            <a target="_top" href="css_background.asp">Background Color</a>
+            <a target="_top" href="css_background_image.asp">Background Image</a>
+            <a target="_top" href="css_background_repeat.asp">Background Repeat</a>
+            <a target="_top" href="css_background_attachment.asp">Background Attachment</a>
+            <a target="_top" href="css_background_shorthand.asp">Background Shorthand</a>
+          </div>
+          <a target="_top" href="css_border.asp">CSS Borders</a>
+          <div class="tut_overview">
+            <a target="_top" href="css_border.asp">Borders</a>
+            <a target="_top" href="css_border_width.asp">Border Width</a>
+            <a target="_top" href="css_border_color.asp">Border Color</a>
+            <a target="_top" href="css_border_sides.asp">Border Sides</a>
+            <a target="_top" href="css_border_shorthand.asp">Border Shorthand</a>
+            <a target="_top" href="css_border_rounded.asp">Rounded Borders</a>
+          </div>
+          <a target="_top" href="css_margin.asp">CSS Margins</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_margin.asp">Margins</a>
+          <a target="_top" href="css_margin_collapse.asp">Margin Collapse</a>
+          </div>
+          <a target="_top" href="css_padding.asp">CSS Padding</a>
+          <a target="_top" href="css_dimension.asp">CSS Height/Width</a>
+          <a target="_top" href="css_boxmodel.asp">CSS Box Model</a>
+          <a target="_top" href="css_outline.asp">CSS Outline</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_outline.asp">Outline</a>
+          <a target="_top" href="css_outline_width.asp">Outline Width</a>
+          <a target="_top" href="css_outline_color.asp">Outline Color</a>
+          <a target="_top" href="css_outline_shorthand.asp">Outline Shorthand</a>
+          <a target="_top" href="css_outline_offset.asp">Outline Offset</a>
+          </div>
+          <a target="_top" href="css_text.asp">CSS Text</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_text.asp">Text Color</a>
+          <a target="_top" href="css_text_align.asp">Text Alignment</a>
+          <a target="_top" href="css_text_decoration.asp">Text Decoration</a>
+          <a target="_top" href="css_text_transformation.asp">Text Transformation</a>
+          <a target="_top" href="css_text_spacing.asp">Text Spacing</a>
+          <a target="_top" href="css_text_shadow.asp">Text Shadow</a>
+          </div>
+          <a target="_top" href="css_font.asp">CSS Fonts</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_font.asp">Font Family</a>
+          <a target="_top" href="css_font_websafe.asp">Font Web Safe</a>
+          <a target="_top" href="css_font_fallbacks.asp">Font Fallbacks</a>
+          <a target="_top" href="css_font_style.asp">Font Style</a>
+          <a target="_top" href="css_font_size.asp">Font Size</a>
+          <a target="_top" href="css_font_google.asp">Font Google</a>
+          <a target="_top" href="css_font_pairings.asp">Font Pairings</a>
+          <a target="_top" href="css_font_shorthand.asp">Font Shorthand</a>
+          </div>
+          <a target="_top" href="css_icons.asp">CSS Icons</a>
+          <a target="_top" href="css_link.asp">CSS Links</a>
+          <a target="_top" href="css_list.asp">CSS Lists</a>
+          <a target="_top" href="css_table.asp">CSS Tables</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_table.asp">Table Borders</a>
+          <a target="_top" href="css_table_size.asp">Table Size</a>
+          <a target="_top" href="css_table_align.asp">Table Alignment</a>
+          <a target="_top" href="css_table_style.asp">Table Style</a>
+          <a target="_top" href="css_table_responsive.asp">Table Responsive</a>
+          </div>
+          <a target="_top" href="css_display_visibility.asp">CSS Display</a>
+          <a target="_top" href="css_max-width.asp">CSS Max-width</a>
+          <a target="_top" href="css_positioning.asp">CSS Position</a>
+          <a target="_top" href="css_z-index.asp">CSS Z-index</a>
+          <a target="_top" href="css_overflow.asp">CSS Overflow</a>
+          <a target="_top" href="css_float.asp">CSS Float</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_float.asp">Float</a>
+          <a target="_top" href="css_float_clear.asp">Clear</a>
+          <a target="_top" href="css_float_examples.asp">Float Examples</a>
+          </div>
+          <a target="_top" href="css_inline-block.asp">CSS Inline-block</a>
+          <a target="_top" href="css_align.asp">CSS Align</a>
+          <a target="_top" href="css_combinators.asp">CSS Combinators</a>
+          <a target="_top" href="css_pseudo_classes.asp">CSS Pseudo-class</a>
+          <a target="_top" href="css_pseudo_elements.asp">CSS Pseudo-element</a>
+          <a target="_top" href="css_image_transparency.asp">CSS Opacity</a>
+          <a target="_top" href="css_navbar.asp">CSS Navigation Bar</a>
+          <div class="tut_overview">
+          <a target="_top" href="css_navbar.asp">Navbar</a>
+          <a target="_top" href="css_navbar_vertical.asp">Vertical Navbar</a>
+          <a target="_top" href="css_navbar_horizontal.asp">Horizontal Navbar</a>
+          </div>
+          <a target="_top" href="css_dropdowns.asp">CSS Dropdowns</a>
+          <a target="_top" href="css_image_gallery.asp">CSS Image Gallery</a>
+          <a target="_top" href="css_image_sprites.asp">CSS Image Sprites</a>
+          <a target="_top" href="css_attribute_selectors.asp">CSS Attr Selectors</a>
+          <a target="_top" href="css_form.asp">CSS Forms</a>
+          <a target="_top" href="css_counters.asp">CSS Counters</a>
+          <a target="_top" href="css_website_layout.asp">CSS Website Layout</a>
+          <a target="_top" href="css_units.asp">CSS Units</a>
+          <a target="_top" href="css_specificity.asp">CSS Specificity</a>
+          <a target="_top" href="css_important.asp">CSS !important</a>
+          <a target="_top" href="css_math_functions.asp">CSS Math Functions</a>
+          <br>
+          <h5 class="left"><span class="left_h2">CSS Advanced</span></h5>
+          <a target="_top" href="css3_borders.asp">CSS Rounded Corners</a>
+          <a target="_top" href="css3_border_images.asp">CSS Border Images</a>
+          <a target="_top" href="css3_backgrounds.asp">CSS Backgrounds</a>
+          <a target="_top" href="css3_colors.asp">CSS Colors</a>
+          <a target="_top" href="css_colors_keywords.asp">CSS Color Keywords</a>
+          <a target="_top" href="css3_gradients.asp">CSS Gradients</a>
+          <div class="tut_overview">
+          <a target="_top" href="css3_gradients.asp">Linear Gradients</a>
+          <a target="_top" href="css3_gradients_radial.asp">Radial Gradients</a>
+          <a target="_top" href="css3_gradients_conic.asp">Conic Gradients</a>
+          </div>
+          <a target="_top" href="css3_shadows.asp">CSS Shadows</a>
+          <div class="tut_overview">
+          <a target="_top" href="css3_shadows.asp">Shadow Effects</a>
+          <a target="_top" href="css3_shadows_box.asp">Box Shadow</a>
+          </div>
+          <a target="_top" href="css3_text_effects.asp">CSS Text Effects</a>
+          <a target="_top" href="css3_fonts.asp">CSS Web Fonts</a>
+          <a target="_top" href="css3_2dtransforms.asp">CSS 2D Transforms</a>
+          <a target="_top" href="css3_3dtransforms.asp">CSS 3D Transforms</a>
+          <a target="_top" href="css3_transitions.asp">CSS Transitions</a>
+          <a target="_top" href="css3_animations.asp">CSS Animations</a>
+          <a target="_top" href="css_tooltip.asp">CSS Tooltips</a>
+          <a target="_top" href="css3_images.asp">CSS Style Images</a>
+          <a target="_top" href="css3_image_reflection.asp">CSS Image Reflection</a>
+          <a target="_top" href="css3_object-fit.asp">CSS object-fit</a>
+          <a target="_top" href="css3_object-position.asp">CSS object-position</a>
+          <a target="_top" href="css3_masking.asp">CSS Masking</a>
+          <a target="_top" href="css3_buttons.asp">CSS Buttons</a>
+          <a target="_top" href="css3_pagination.asp">CSS Pagination</a>
+          <a target="_top" href="css3_multiple_columns.asp">CSS Multiple Columns</a>
+          <a target="_top" href="css3_user_interface.asp">CSS User Interface</a>
+          <a target="_top" href="css3_variables.asp">CSS Variables</a>
+          <div class="tut_overview">
+          <a target="_top" href="css3_variables.asp">The var() Function</a>
+          <a target="_top" href="css3_variables_overriding.asp">Overriding Variables</a>
+          <a target="_top" href="css3_variables_javascript.asp">Variables and JavaScript</a>
+          <a target="_top" href="css3_variables_mediaqueries.asp">Variables in Media Queries</a>
+          </div>
+          <a target="_top" href="css3_box-sizing.asp">CSS Box Sizing</a>
+          <a target="_top" href="css3_mediaqueries.asp">CSS Media Queries</a>
+          <a target="_top" href="css3_mediaqueries_ex.asp">CSS MQ Examples</a>
+          <a target="_top" href="css3_flexbox.asp">CSS Flexbox</a>
+          <div class="tut_overview">
+          <a target="_top" href="css3_flexbox.asp">CSS Flexbox</a>
+          <a target="_top" href="css3_flexbox_container.asp">CSS Flex Container</a>
+          <a target="_top" href="css3_flexbox_items.asp">CSS Flex Items</a>
+          <a target="_top" href="css3_flexbox_responsive.asp">CSS Flex Responsive</a>
+          </div>
+          <br>
+          <h5 class="left"><span class="left_h2">CSS</span> Responsive</h5>
+          <a target="_top" href="css_rwd_intro.asp">RWD Intro</a>
+          <a target="_top" href="css_rwd_viewport.asp">RWD Viewport</a>
+          <a target="_top" href="css_rwd_grid.asp">RWD Grid View</a>
+          <a target="_top" href="css_rwd_mediaqueries.asp">RWD Media Queries</a>
+          <a target="_top" href="css_rwd_images.asp">RWD Images</a>
+          <a target="_top" href="css_rwd_videos.asp">RWD Videos</a>
+          <a target="_top" href="css_rwd_frameworks.asp">RWD Frameworks</a>
+          <a target="_top" href="css_rwd_templates.asp">RWD Templates</a>
+          <br>
+          <h5 class="left"><span class="left_h2">CSS</span> Grid</h5>
+          <a target="_top" href="css_grid.asp">Grid Intro</a>
+          <a target="_top" href="css_grid_container.asp">Grid Container</a>
+          <a target="_top" href="css_grid_item.asp">Grid Item</a>
+          <br>
+          <h5 class="left"><span class="left_h2">CSS</span> SASS</h5>
+          <a target="_top" href="/sass/default.php">SASS Tutorial</a>
+          <br>
+          <h5 class="left"><span class="left_h2">CSS</span> Examples</h5>
+          <a target="_top" href="css_templates.asp">CSS Templates</a>
+          <a target="_top" href="css_examples.asp">CSS Examples</a>
+          <a target="_top" href="css_editor.asp">CSS Editor</a>
+          <a target="_top" href="css_snippets.asp">CSS Snippets</a>
+          <a target="_top" href="css_quiz.asp">CSS Quiz</a>
+          <a target="_top" href="css_exercises.asp">CSS Exercises</a>
+          <a target="_top" href="css_bootcamp.asp">CSS Bootcamp</a>
+          <a target="_top" href="css_exam.asp">CSS Certificate</a>
+          <br>
+          <h5 class="left"><span class="left_h2">CSS</span> References</h5>
+          <a target="_top" href="/cssref/default.asp">CSS Reference</a>
+          <a target="_top" href="/cssref/css_selectors.asp">CSS Selectors</a>
+          <a target="_top" href="/cssref/css_functions.asp">CSS Functions</a>
+          <a target="_top" href="/cssref/css_ref_aural.asp">CSS Reference Aural</a>
+          <a target="_top" href="/cssref/css_websafe_fonts.asp">CSS Web Safe Fonts</a>
+          <a target="_top" href="/cssref/css_animatable.asp">CSS Animatable</a>
+          <a target="_top" href="/cssref/css_units.asp">CSS Units</a>
+          <a target="_top" href="/cssref/css_pxtoemconversion.asp">CSS PX-EM Converter</a>
+          <a target="_top" href="/cssref/css_colors.asp">CSS Colors</a>
+          <a target="_top" href="/cssref/css_colors_legal.asp">CSS Color Values</a>
+          <a target="_top" href="/cssref/css_default_values.asp">CSS Default Values</a>
+          <a target="_top" href="/cssref/css3_browsersupport.asp">CSS Browser Support</a> 
+          </div>
+          </div>
+        </div></div>
+      <div class="col-10">
+        <iframe src="" id="show" name="sceen" height="100%" width="100%" title="Iframe Example">
+        </iframe>
+        <iframe width="560" id="1" height="315" src="https://www.youtube.com/embed/X1ulCwyhCVM?si=CzRAG_A32Qw6_g0y" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="2" height="315" src="https://www.youtube.com/embed/89VLfs-wpEY?si=KeF6t82svKMLd4aU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="3" height="315" src="https://www.youtube.com/embed/66sjwQ-hB64?si=_tJZ4iEJ_-cHK2UM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="4" height="315" src="https://www.youtube.com/embed/xkNpIsbxMuo?si=A_KorUcB7lPamwCn" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="../js/vendor/all.min.js"></script>
+  <script src="../js/vendor/bootstrap.bundle.min.js"></script>
+  <script src="../js/main-file.js"></script>
+</body>
+</html>

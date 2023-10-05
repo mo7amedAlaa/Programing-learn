@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>learn front end | html</title>
+  <link rel="shortcut icon" href="source/images/favicon-Logo.png" type="image/x-icon">
+  <!-- google font links -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&family=Public+Sans:wght@300;400;700&display=swap" rel="stylesheet">
+<!-- link css file -->
+<link rel="stylesheet" href="../css/vendor/all.min.css">
+  <link rel="stylesheet" href="../css/vendor/bootstrap.min.css">
+  <link rel="stylesheet" href="../css/theme.css">
+  <link rel="stylesheet" href="../css/pages.css">
+</head>
+<body  >
+  <div class="container-fluid">
+    <div class="row ">
+      <div class="col-12 p-0">
+        <header>
+          <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="index.html"><i class="header-icon fa-brands  fa-leanpub"></i></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-content"
+              aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+      
+            <div class="collapse navbar-collapse" id="navbar-content">
+      
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="../index.html">Home</a>
+                </li>
+                
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+                    aria-expanded="false">
+                    Programming Path
+                  </a>
+                  <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <li><a class="dropdown-item" href="html.html">Html</a></li>
+                    <li><a class="dropdown-item" href="css.html">Css</a></li>
+                    <li><a class="dropdown-item" href="js.html">javascript</a></li>
+                    <li><a class="dropdown-item" href="bootstrab.html">Bootstrap</a></li>
+                  </ul>
+                </li>
+              </ul>
+              <div class="login d-flex justify-content-around align-items-center gap-2">
+                <span id="dark-mode-button"><i class="fa-solid icon fa-circle-half-stroke"></i></span>
+                <div class="log d-flex mx-3 align-items-center">
+                  <i class="fa-solid  mx-3 icon fa-user"></i>
+                  <p class="mb-0  u-name" id="outName"></p>
+                </div>
+              </div>
+            </div>
+      
+      
+          </nav>
+           
+       
+        </header>
+      </div>
+    </div>
+    <div class="row mt-4">
+      <div class="col-2">
+        <div class=" sidebar " id="sidenav">
+          <div id="leftmenuinner">
+            <div id="leftmenuinnerinner">
+       
+        <h5 class="left"><span class="left_h2">HTML</span> Tutorial</h5>
+        <a target="screen" onclick="show('#1')" id="#1" href="#1">HTML Introduction</a>
+        <a target="screen" onclick="show('#2')" id="#2" href="#2">Language and Browser Elements</a>
+        <a target="screen" onclick="show('#3')" id="#3" href="#3">Create your first project and first page Code and notes</a>
+        <a target="screen" onclick="show('#5')" id="#4" href="#5">Head element and inner elements</a>
+          <a target="_top" href="html_paragraphs.asp">HTML Paragraphs</a>
+          <a target="_top" href="html_styles.asp">HTML Styles</a>
+          <a target="_top" href="html_formatting.asp">HTML Formatting</a>
+          <a target="_top" href="html_quotation_elements.asp">HTML Quotations</a>
+          <a target="_top" href="html_comments.asp">HTML Comments</a>
+          <a target="_top" href="html_colors.asp">HTML Colors</a>
+          <div class="tut_overview">
+            <a target="_top" href="html_colors.asp">Colors</a>
+            <a target="_top" href="html_colors_rgb.asp">RGB</a>
+            <a target="_top" href="html_colors_hex.asp">HEX</a>
+            <a target="_top" href="html_colors_hsl.asp">HSL</a>
+          </div>
+          <a target="_top" href="html_css.asp">HTML CSS</a>
+          <a target="_top" href="html_links.asp">HTML Links</a>
+          <div class="tut_overview">
+            <a target="_top" href="html_links.asp">Links</a>
+            <a target="_top" href="html_links_colors.asp">Link Colors</a>
+            <a target="_top" href="html_links_bookmarks.asp">Link Bookmarks</a>
+          </div>
+          <a target="_top" href="html_images.asp">HTML Images</a>
+          <div class="tut_overview">
+            <a target="_top" href="html_images.asp">Images</a>
+            <a target="_top" href="html_images_imagemap.asp">Image Map</a>
+            <a target="_top" href="html_images_background.asp">Background Images</a>
+            <a target="_top" href="html_images_picture.asp">The Picture Element</a>
+          </div>
+          <a target="_top" href="html_favicon.asp">HTML Favicon</a>
+          <a target="_top" href="html_page_title.asp">HTML Page Title</a>
+          <a target="_top" href="html_tables.asp">HTML Tables</a>
+          <div class="tut_overview">
+            <a target="_top" href="html_tables.asp">HTML Tables</a>
+            <a target="_top" href="html_table_borders.asp">Table Borders</a>
+            <a target="_top" href="html_table_sizes.asp">Table Sizes</a>
+            <a target="_top" href="html_table_headers.asp">Table Headers</a>
+            <a target="_top" href="html_table_padding_spacing.asp">Padding &amp; Spacing</a>
+            <a target="_top" href="html_table_colspan_rowspan.asp">Colspan &amp; Rowspan</a>
+            <a target="_top" href="html_table_styling.asp">Table Styling</a>
+            <a target="_top" href="html_table_colgroup.asp">Table Colgroup</a>
+          </div>
+          <a target="_top" href="html_lists.asp">HTML Lists</a>
+          <div class="tut_overview">
+          <a target="_top" href="html_lists.asp">Lists</a>
+          <a target="_top" href="html_lists_unordered.asp">Unordered Lists</a>
+          <a target="_top" href="html_lists_ordered.asp">Ordered Lists</a>
+          <a target="_top" href="html_lists_other.asp">Other Lists</a>
+          </div>
+          <a target="_top" href="html_blocks.asp">HTML Block &amp; Inline</a>
+          <a target="_top" href="html_classes.asp">HTML Classes</a>
+          <a target="_top" href="html_id.asp">HTML Id</a>
+          <a target="_top" href="html_iframe.asp">HTML Iframes</a>
+          <a target="_top" href="html_scripts.asp">HTML JavaScript</a>
+          <a target="_top" href="html_filepaths.asp">HTML File Paths</a>
+          <a target="_top" href="html_head.asp">HTML Head</a>
+          <a target="_top" href="html_layout.asp">HTML Layout</a>
+          <a target="_top" href="html_responsive.asp">HTML Responsive</a>\
+          <br>
+          <h5 class="left"><span class="left_h2">HTML</span> Forms</h5>
+          <a target="_top" href="html_forms.asp">HTML Forms</a>
+          <a target="_top" href="html_forms_attributes.asp">HTML Form Attributes</a>
+          <a target="_top" href="html_form_elements.asp">HTML Form Elements</a>
+          <a target="_top" href="html_form_input_types.asp">HTML Input Types</a>
+          <a target="_top" href="html_form_attributes.asp">HTML Input Attributes</a>
+          <a target="_top" href="html_form_attributes_form.asp">HTML Input Form Attributes</a>
+          <br>
+          <h5 class="left"><span class="left_h2">HTML</span> Media</h5>
+          <a target="_top" href="html_media.asp">HTML Media</a>
+          <a target="_top" href="html5_video.asp">HTML Video</a>
+          <a target="_top" href="html5_audio.asp">HTML Audio</a>
+          <a target="_top" href="html_object.asp">HTML Plug-ins</a>
+          <a target="_top" href="html_youtube.asp">HTML YouTube</a>
+             
+            </div>
+          </div>
+        </div></div>
+      <div class="col-10">
+        <iframe src="" id="show" name="sceen" height="100%" width="100%" title="Iframe Example">
+        </iframe>
+        <iframe  width="560" id="1" height="315" src="https://www.youtube.com/embed/6QAELgirvjs?si=HKjAHr_iiUgAJWDd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="2" height="315" src="https://www.youtube.com/embed/7LxA9qXUY5k?si=Jqk6p0xF6lxqkhZb" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="3" height="315" src="https://www.youtube.com/embed/QG5aEmS9Fu0?si=1w4RgT568MvAH4ak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" id="4" height="315" src="https://www.youtube.com/embed/dVgTBEYCseU?si=K4gVWUJMsEXm1Gsd" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+   <!-- link js file -->
+ <script src="../js/vendor/all.min.js" ></script>
+ <script src="../js/vendor/bootstrap.bundle.min.js" ></script>
+  <script src="../js/main-file.js"></script>
+</body>
+</html>
